@@ -1,0 +1,21 @@
+.fylo__second-inner {
+    text-align: center;
+    padding: 2rem;
+    .fylo__element_list {
+        .list {
+            padding-top: 2rem;
+
+            .list-img {
+                padding: 1rem;
+            }
+            .list-title {
+                font-size: 22px;
+                line-height: 38px;
+            }
+            .list-text {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}

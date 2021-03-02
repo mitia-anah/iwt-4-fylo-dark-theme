@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: white;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_content {
+  background-color: #181f2a;
+}
+
+.masthead {
+  padding: 2rem;
+  background-color: #1c2431;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.masthead #masthead_title > .logo {
+  width: 100px;
+}
+.masthead .masthead_navigation .navigation {
+  display: flex;
+  flex-direction: row;
+}
+.masthead .masthead_navigation .navigation .navigation_list {
+  margin: 0.5rem;
+}
+.masthead .masthead_navigation .navigation .navigation_list a {
+  color: white;
+}
+
+.fylo__first--container {
+  padding: 2rem;
+}
+.fylo__first--container .fylo__first_inner {
+  text-align: center;
+}
+.fylo__first--container .fylo__first_inner .illustration_container {
+  padding: 2rem;
+}
+.fylo__first--container .fylo__first_inner .illustration_container .illustration-image {
+  width: 100%;
+}
+.fylo__first--container .fylo__first_inner .illustration_content {
+  padding-block-start: 2rem;
+}
+.fylo__first--container .fylo__first_inner .illustration_content .illustration_content-title {
+  font-size: 26px;
+  line-height: 48px;
+}
+.fylo__first--container .fylo__first_inner .illustration_content .illustration_content-paragraph {
+  font-size: 14px;
+  line-height: 24px;
+}
+.fylo__first--container .fylo__first_inner .illustration_content .illustration_content-button {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  background-color: #339ecc;
+  border-radius: 100px;
+  border-style: none;
+}
+
+.fylo__second-inner {
+  text-align: center;
+  padding: 2rem;
+}
+.fylo__second-inner .fylo__element_list .list {
+  padding-top: 2rem;
+}
+.fylo__second-inner .fylo__element_list .list .list-img {
+  padding: 1rem;
+}
+.fylo__second-inner .fylo__element_list .list .list-title {
+  font-size: 22px;
+  line-height: 38px;
+}
+.fylo__second-inner .fylo__element_list .list .list-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.fylo__third--container {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.fylo__third--container .first_inner {
+  text-align: start;
+}
+.fylo__third--container .first_inner .illustration-img-container .illustartion-image {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.fylo__third--container .first_inner .fylo__third-content .content-title {
+  font-size: 32px;
+  line-height: 42px;
+}
+.fylo__third--container .first_inner .fylo__third-content .content-text1, .fylo__third--container .first_inner .fylo__third-content .content-text2 {
+  font-size: 14px;
+}
+.fylo__third--container .first_inner .fylo__third-content .content-link .link {
+  color: #65e2d9;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #65e2d9;
+}
+.fylo__third--container .first_inner .fylo__third-content .content-link::after {
+  content: "";
+  background-image: url("/icon-arrow.56d7c493.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 30px;
+  padding-top: 10%;
+  transform: translate(135px, -15px);
+}
+.fylo__third--container .second_inner {
+  padding: 2rem;
+}
+.fylo__third--container .second_inner .testimonials .testimonial-list {
+  background-color: #202a3c;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 30px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */

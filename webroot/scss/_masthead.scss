@@ -1,0 +1,31 @@
+.masthead {
+    padding: 2rem;
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    #masthead_title> .logo {
+        // width: 100%;
+        width: 100px;
+    }
+   
+    .masthead_navigation {
+       .navigation {
+        display: flex;
+        flex-direction: row;
+        
+
+        .navigation_list {
+            margin: 0.5rem;
+            a{
+                color:  hsl(0, 0%, 100%);
+            }
+        }
+
+       }
+
+   }
+}

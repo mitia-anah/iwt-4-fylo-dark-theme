@@ -1,0 +1,37 @@
+.fylo__first--container {
+    padding: 2rem;
+    .fylo__first_inner {
+        text-align: center;
+
+        .illustration_container {
+            padding: 2rem;
+            .illustration-image {
+                width: 100%;
+            }
+        }
+
+    .illustration_content {
+        padding-block-start: 2rem;
+
+        .illustration_content-title {
+            font-size: 26px;
+            line-height: 48px;
+        }
+        .illustration_content-paragraph {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .illustration_content-button {
+            margin-top: 2rem;
+            padding: 1rem;
+            width: 100%;
+            max-width: 300px;
+            color: hsl(0, 0%, 100%);
+            background-color: hsl(198, 60%, 50%);
+            border-radius: 100px;
+            border-style: none;
+        }
+
+    }
+    }
+}
