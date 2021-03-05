@@ -145,7 +145,14 @@ a {
 .profile-pic {
   width: 100%;
   max-width: 30px;
+  height: 100%;
   border-radius: 50%;
+}
+
+.testimonial1, .testimonial2, .testimonial3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */
